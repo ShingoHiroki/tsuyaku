@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>local.tsuyaku</string>
+	<key>CFBundleName</key>
+	<string>Tsuyaku</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tsuyaku</string>
+	<key>CFBundleExecutable</key>
+	<string>Tsuyaku</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>会議アプリの相手の声を取り込み、字幕と翻訳を表示するために使います。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>自分の声を取り込み、字幕と翻訳を表示するために使います。</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<!-- PLaMo の翻訳サーバー（この Mac の中だけで動く 127.0.0.1）と http で通信するため -->
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>会議の音声を文字にするために使います。音声は Mac の中で処理します。</string>
+</dict>
+</plist>

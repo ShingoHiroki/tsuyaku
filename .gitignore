@@ -1,0 +1,15 @@
+# ビルド成果物
+.build/
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.swiftpm/
+
+# WhisperKit・PLaMo のモデル（大きいため。再ダウンロードできる）
+models/
+
+# PLaMo を動かす Python の仮想環境（手元で作る）
+.venv/
+
+.DS_Store

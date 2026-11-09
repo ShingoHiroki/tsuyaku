@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Tsuyaku のアイコンの元の絵。直したら app/Icon/make-icon.sh で AppIcon.icns を作り直す -->
+  <!-- 1024×1024 の中に、macOS のアイコンの決まった大きさの角丸の四角（824×824）を置く -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0e5f73"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <!-- T の横棒＝一番上の字幕の行 -->
+  <rect x="230" y="250" width="564" height="72" rx="36" fill="#ffffff"/>
+  <!-- T の縦棒＝一番高い音の波 -->
+  <rect x="476" y="250" width="72" height="530" rx="36" fill="#ffffff"/>
+  <!-- 左右の音の波 -->
+  <g fill="#ffffff" opacity="0.75">
+    <rect x="384" y="430" width="56" height="230" rx="28"/>
+    <rect x="292" y="490" width="56" height="110" rx="28"/>
+    <rect x="584" y="430" width="56" height="230" rx="28"/>
+    <rect x="676" y="490" width="56" height="110" rx="28"/>
+  </g>
+</svg>
